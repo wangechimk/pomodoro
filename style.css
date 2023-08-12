@@ -23,6 +23,7 @@ section{
 	display: flex;
 	align-items: center;
 	height: 70%;
+	margin-top: 30px;
 }
 .container{
 	width: min(42.5rem, 100%);
