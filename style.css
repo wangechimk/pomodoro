@@ -102,7 +102,7 @@ input:checked + .label{
 	border-radius: 50%;
 	background-color: #dfc7c7;
 }
-/* .time{
+.time{
 	position: relative;
 	display: flex;
 	flex-direction: row;
@@ -116,14 +116,15 @@ input:checked + .label{
 	margin-inline:1rem;
 }
 .controls{
-	margin-top: 10rem;
+	margin-top: 9rem;
 }
 .controls button{
 	border: none;
-	background-color: #fff;
+	background-color: transparent;
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 30px;
+	color: #fff;
 }
 .controls #reset{
            display: none;
-} */
+}
