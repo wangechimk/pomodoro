@@ -7,7 +7,6 @@
 	box-sizing: border-box;
 }
 html,body{
-	height: 100%;
 	background-color: #391931;
 	font-size: 1.6rem;
 	font-family: 'Open sans' sans-serif;
@@ -98,8 +97,33 @@ input:checked + .label{
 .circle::before{
 	content: '';
 	position: absolute;
-	width:95% ;
-	height: 95%;
+	width:90% ;
+	height: 90%;
 	border-radius: 50%;
 	background-color: #dfc7c7;
 }
+/* .time{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+.time p{
+	font-size: 5.6rem;
+}
+.time p:nth-of-type(2){
+	position: relative;
+	top: -.5rem;
+	margin-inline:1rem;
+}
+.controls{
+	margin-top: 10rem;
+}
+.controls button{
+	border: none;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+}
+.controls #reset{
+           display: none;
+} */
